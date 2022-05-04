@@ -6,7 +6,7 @@ from time import sleep
 sleep(1)
 studentName = str.lower(input('Enter your Name '))
 students = ['bob', 'mary', 'joe']
-
+favoriteStudents = ['harry potter']
 
 
 if studentName in students:
@@ -31,6 +31,9 @@ if studentName in students:
 grade = int(input())
 if int(grade) ==100:
     print('PERFECT SCORE!')
+    favoriteStudents.append(studentName)
+    sleep(1)
+    print("TOP STUDENTS:", favoriteStudents )
 elif int(grade) >=90:
     print ("Great Work! 'A'")
 elif int(grade)>= 80:
@@ -41,3 +44,11 @@ elif int(grade) >=60:
      print ("Needs a lot of work. 'D'")
 else:
      print ("Not even close! 'F'")
+     print("you will be missed")
+     sleep(.5)
+     print(students)
+     sleep(1)
+     students.remove(studentName)
+     print(students)
+
+     
