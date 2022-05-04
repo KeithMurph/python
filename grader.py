@@ -1,7 +1,6 @@
 from time import sleep
 
-
-
+# Grader asks for student name checks class list thae grades
 
 sleep(1)
 studentName = str.lower(input('Enter your Name '))
@@ -20,11 +19,6 @@ elif studentName not in students :
     students.append(studentName)
     print(students)
 sleep(.5)
-
-
-
-
-
 
 if studentName in students:
     print ("Please enter your test score:")
