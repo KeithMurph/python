@@ -1,9 +1,11 @@
-import keyboard from keyboard
-keyboard.wait('w')
-print('w')
+def helloWorld():
+    print('Hello World')
 
-
-
+helloWorld();
+helloWorld();
+helloWorld();
+helloWorld();
+helloWorld();
 
    
 
