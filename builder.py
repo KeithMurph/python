@@ -9,12 +9,12 @@ wheels = ['spitfire', 'bones', 'sml']
 bearings = ['bones', 'bronson', 'dirty bearings']
 griptape = ['mob', 'miles', 'jessup']
 trucks = ['indy', 'ace', 'thunder']
-hardware = ['indy', 'hardies', 'diamond']
+hardware = ['hardies', 'diamond']
 
 print('hello skater')
 confirm = str.lower(input("Want to build a skateboard? ('Y', 'N')"))
 
-if confirm == ('y'):
+if confirm == 'y':
     print('awesome')
     sleep(2)
     print('First lets choose a deck')
@@ -52,3 +52,9 @@ if confirm == ('y'):
     sleep(1)
     print('your brand new skateboard! ', myBoard)
     sleep(1)
+    print('thanks for building with us!')
+    sleep(1)
+    print('goodbye')
+else:
+    print('okay, bye')    
+
