@@ -22,6 +22,11 @@ if confirm == ('y'):
     print('Here are the decks:' , decks)
     sleep(1)
     myBoard[1] = str.lower(input('type the deck you want '))
+
+    sleep(1)
+    print('Last lets choose your trucks ', trucks)
+    sleep(1)
+    myBoard[11] = str.lower(input('type the trucks you want '))
  
     sleep(1)
     print('Now lets choose your wheels ', wheels)
@@ -43,10 +48,7 @@ if confirm == ('y'):
     sleep(1)
     myBoard[9] = str.lower(input('type the hardware you want '))
    
-    sleep(1)
-    print('Last lets choose your trucks ', trucks)
-    sleep(1)
-    myBoard[11] = str.lower(input('type the trucks you want '))
+   
     sleep(1)
     print('your brand new skateboard! ', myBoard)
     sleep(1)
